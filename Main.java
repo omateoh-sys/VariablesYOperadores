@@ -10,7 +10,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		// --- 1. Declaración y Uso de Variables ---
+		// ---  Declaración y Uso de Variables ---
 		System.out.println("---  Variables y Operadores ---");
 		System.out.print("Ingresa un número entero (int): ");
 		int entero = sc.nextInt();
@@ -28,7 +28,7 @@ public class Main {
 		System.out.println(
 				"Valores: Int = " + entero + ", Double = " + decimal + ", String = " + texto + ", Boolean = " + esVerdad);
 
-		// --- 2. Operaciones Matemáticas ---
+		// ---  Operaciones Matemáticas ---
 		System.out.println("\n---  OPERACIONES MATEMÁTICAS ---");
 		System.out.print("Ingresa primer número entero: ");
 		int n1 = sc.nextInt();
@@ -38,7 +38,7 @@ public class Main {
 		System.out.println("Suma: " + (n1 + n2));
 		System.out.println("Resta: " + (n1 - n2));
 		System.out.println("Multiplicación: " + (n1 * n2));
-		// Nota: Si n2 es 0, lanzará error. En enteros, la división trunca decimales.
+		// Si n2 es 0, lanzará error. En enteros, la división cortara decimales.
 		if (n2 != 0) {
 			System.out.println("División Entera: " + (n1 / n2));
 		}
